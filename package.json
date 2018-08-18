@@ -1,0 +1,28 @@
+{
+    "private": true,
+    "name": "test-puppeteer-jasmine",
+    "description": "TODO",
+    "version": "1.0.0",
+    "license": "MIT",
+    "author": {
+        "name": "Piotr Kowalski",
+        "email": "piecioshka@gmail.com",
+        "url": "https://piecioshka.pl/"
+    },
+    "scripts": {
+        "clear": "",
+        "clear:all": "rm -rf node_modules/ && npm run clear",
+        "test": "npm run test:unit",
+        "test:unit": "jasmine JASMINE_CONFIG_PATH=test/e2e/support/jasmine.json",
+        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "jasmine": "^3.2.0",
+        "puppeteer": "^1.7.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:piecioshka/test-puppeteer-jasmine.git"
+    }
+}
