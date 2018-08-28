@@ -4,8 +4,6 @@ node_js:
   - "9"
   - "8"
   - "7"
-script: xvfb-run npm test
-
 sudo: required
 addons:
   chrome: stable
