@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "test-puppeteer-jasmine",
-    "description": "TODO",
+    "description": "",
     "version": "1.0.0",
     "license": "MIT",
     "author": {
@@ -12,9 +12,7 @@
     "scripts": {
         "clear": "",
         "clear:all": "rm -rf node_modules/ && npm run clear",
-        "test": "npm run test:unit",
-        "test:unit": "jasmine JASMINE_CONFIG_PATH=test/e2e/support/jasmine.json",
-        "count": "find . -name '*.js' -not -path './node_modules/*' | xargs wc -l | sort -r"
+        "test": "jasmine test/**/*.js"
     },
     "dependencies": {},
     "devDependencies": {
