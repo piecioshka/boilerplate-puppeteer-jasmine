@@ -12,7 +12,10 @@
     "scripts": {
         "clear": "",
         "clear:all": "rm -rf node_modules/ && npm run clear",
-        "test": "jasmine e2e/**/*.js"
+        "test": "npm run e2e",
+        "e2e": "npm run e2e:jasmine",
+        "e2e:jasmine": "npx jasmine e2e/specs/*.js",
+        "e2e:jest": "npx jest e2e/specs/*.js"
     },
     "dependencies": {},
     "devDependencies": {

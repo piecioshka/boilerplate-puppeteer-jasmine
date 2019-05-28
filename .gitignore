@@ -1,2 +1,5 @@
 node_modules/
 npm-debug.log
+
+# Configuration to run end-to-end tests
+!.vscode/*

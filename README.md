@@ -1,9 +1,10 @@
 # test-puppeteer-jasmine
 
 [![dependencies](https://david-dm.org/piecioshka/test-puppeteer-jasmine.svg)](https://github.com/piecioshka/test-puppeteer-jasmine)
-[![travis](https://img.shields.io/travis/piecioshka/test-puppeteer-jasmine.svg)](https://travis-ci.org/piecioshka/test-puppeteer-jasmine)
+[![travis-ci](https://img.shields.io/travis/piecioshka/test-puppeteer-jasmine.svg)](https://travis-ci.org/piecioshka/test-puppeteer-jasmine)
+[![circle-ci](https://circleci.com/gh/piecioshka/test-puppeteer-jasmine.svg?style=svg)](https://circleci.com/gh/piecioshka/test-puppeteer-jasmine)
 
-:ledger: Testing [Puppeteer](https://pptr.dev/)
+:ledger: Testing [Puppeteer](https://pptr.dev/) (with Jasmine and Jest)
 
 ## End-to-end tests
 
