@@ -1,10 +1,9 @@
 const { HomePage } = require('../page-objects/home-page.po');
 
 describe('Home Page (with page object)', () => {
-    let page = null;
+    const page = new HomePage();
 
     beforeEach(async () => {
-        page = new HomePage();
         await page.open();
     });
 
