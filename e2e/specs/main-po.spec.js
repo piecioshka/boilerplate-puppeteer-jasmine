@@ -5,7 +5,7 @@ describe('Home Page (with page object)', () => {
 
     beforeEach(async () => {
         page = new HomePage();
-        await page.setup();
+        await page.open();
     });
 
     afterEach(async () => {

@@ -9,7 +9,7 @@ describe('Home Page', () => {
     beforeEach(async () => {
         browser = await puppeteer.launch();
         page = await browser.newPage();
-        await page.goto(URL, { waitUntil: 'networkidle2' });
+        await page.goto(URL);
     });
 
     afterEach(async () => {
