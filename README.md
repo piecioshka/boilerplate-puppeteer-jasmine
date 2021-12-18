@@ -1,6 +1,5 @@
 # boilerplate-puppeteer-jasmine
 
-[![dependencies](https://david-dm.org/piecioshka/boilerplate-puppeteer-jasmine.svg)](https://github.com/piecioshka/boilerplate-puppeteer-jasmine)
 [![travis-ci](https://img.shields.io/travis/piecioshka/boilerplate-puppeteer-jasmine.svg)](https://travis-ci.org/piecioshka/boilerplate-puppeteer-jasmine)
 [![circle-ci](https://circleci.com/gh/piecioshka/boilerplate-puppeteer-jasmine.svg?style=svg)](https://circleci.com/gh/piecioshka/boilerplate-puppeteer-jasmine)
 
