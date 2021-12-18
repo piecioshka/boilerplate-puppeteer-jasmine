@@ -5,6 +5,12 @@
 
 🍴 Starter with [Puppeteer](https://pptr.dev/) and Jasmine (+Jest)
 
+## Features
+
+* :white_check_mark: Puppeteer `v13.0.0`
+* :white_check_mark: Jasmine `v3.10.0`
+* :white_check_mark: Jest `v27.4.5`
+
 ## End-to-end tests
 
 ```bash
@@ -22,4 +28,4 @@ npm test
 
 ## License
 
-[The MIT License](http://piecioshka.mit-license.org) @ 2018
+[The MIT License](http://piecioshka.mit-license.org) @ 2018-2021
