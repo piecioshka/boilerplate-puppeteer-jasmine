@@ -1,6 +1,6 @@
 {
     "private": true,
-    "name": "test-puppeteer-jasmine",
+    "name": "boilerplate-puppeteer-jasmine",
     "description": "",
     "version": "1.0.0",
     "license": "MIT",
@@ -24,6 +24,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git@github.com:piecioshka/test-puppeteer-jasmine.git"
+        "url": "git@github.com:piecioshka/boilerplate-puppeteer-jasmine.git"
     }
 }
