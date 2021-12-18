@@ -1,29 +1,29 @@
 {
-    "private": true,
-    "name": "boilerplate-puppeteer-jasmine",
-    "description": "",
-    "version": "1.0.0",
-    "license": "MIT",
-    "author": {
-        "name": "Piotr Kowalski",
-        "email": "piecioshka@gmail.com",
-        "url": "https://piecioshka.pl/"
-    },
-    "scripts": {
-        "clear": "",
-        "clear:all": "rm -rf node_modules/ && npm run clear",
-        "test": "npm run e2e",
-        "e2e": "npm run e2e:jasmine",
-        "e2e:jasmine": "npx jasmine e2e/specs/*.js",
-        "e2e:jest": "npx jest e2e/specs/*.js"
-    },
-    "dependencies": {},
-    "devDependencies": {
-        "jasmine": "^3.2.0",
-        "puppeteer": "^1.15.0"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:piecioshka/boilerplate-puppeteer-jasmine.git"
-    }
+  "private": true,
+  "name": "boilerplate-puppeteer-jasmine",
+  "description": "",
+  "version": "0.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Piotr Kowalski",
+    "email": "piecioshka@gmail.com",
+    "url": "https://piecioshka.pl/"
+  },
+  "scripts": {
+    "test": "npm run e2e",
+    "e2e": "npm run e2e:jasmine",
+    "e2e:jasmine": "jasmine e2e/specs/*.js",
+    "e2e:jest": "jest e2e/specs/*.js"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.10.2",
+    "@types/jest": "^27.0.3",
+    "jasmine": "^3.10.0",
+    "jest": "^27.4.5",
+    "puppeteer": "^13.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:piecioshka/boilerplate-puppeteer-jasmine.git"
+  }
 }

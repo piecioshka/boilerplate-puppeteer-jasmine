@@ -3,7 +3,7 @@
 [![travis-ci](https://img.shields.io/travis/piecioshka/boilerplate-puppeteer-jasmine.svg)](https://travis-ci.org/piecioshka/boilerplate-puppeteer-jasmine)
 [![circle-ci](https://circleci.com/gh/piecioshka/boilerplate-puppeteer-jasmine.svg?style=svg)](https://circleci.com/gh/piecioshka/boilerplate-puppeteer-jasmine)
 
-:ledger: Testing [Puppeteer](https://pptr.dev/) (with Jasmine and Jest)
+🍴 Starter with [Puppeteer](https://pptr.dev/) and Jasmine (+Jest)
 
 ## End-to-end tests
 
