@@ -10,7 +10,6 @@
     "url": "https://piecioshka.pl/"
   },
   "scripts": {
-    "test": "npm run e2e",
     "e2e": "npm run e2e:jasmine",
     "e2e:jasmine": "jasmine --reporter=jasmine-console-reporter e2e/specs/*.js",
     "e2e:jest": "jest e2e/specs/*.js"

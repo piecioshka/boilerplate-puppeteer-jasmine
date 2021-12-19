@@ -1,5 +1,10 @@
 language: node_js
 
+os:
+  - linux
+  - osx
+  - windows
+
 node_js:
   - "14"
   - "13"
@@ -11,3 +16,6 @@ sudo: required
 
 addons:
   chrome: stable
+
+script:
+  - npm run e2e

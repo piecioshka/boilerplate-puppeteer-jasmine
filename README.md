@@ -3,7 +3,7 @@
 [![travis-ci](https://img.shields.io/travis/piecioshka/boilerplate-puppeteer-jasmine.svg)](https://app.travis-ci.com/github/piecioshka/boilerplate-puppeteer-jasmine)
 [![circle-ci](https://circleci.com/gh/piecioshka/boilerplate-puppeteer-jasmine.svg?style=svg)](https://circleci.com/gh/piecioshka/boilerplate-puppeteer-jasmine)
 
-🍴 Starter with [Puppeteer](https://pptr.dev/) and Jasmine (+Jest)
+🍴 Starter with Puppeteer & Jasmine & Jest
 
 ## Features
 
