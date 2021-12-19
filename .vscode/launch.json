@@ -1,0 +1,35 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Testing (Jasmine)",
+      "program": "${workspaceFolder}/node_modules/.bin/jasmine",
+      "args": ["--reporter=jasmine-console-reporter", "e2e/specs/*.js"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Testing (Jest)",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": ["--verbose", "-i", "--no-cache", "e2e/specs/*.js"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Testing (Jest): Watch",
+      "program": "${workspaceFolder}/node_modules/.bin/jest",
+      "args": ["--verbose", "-i", "--no-cache", "--watchAll", "e2e/specs/*.js"],
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    }
+  ]
+}
