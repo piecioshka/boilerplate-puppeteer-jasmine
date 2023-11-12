@@ -1,15 +1,14 @@
 # boilerplate-puppeteer-jasmine
 
-[![travis-ci](https://api.travis-ci.com/piecioshka/boilerplate-puppeteer-jasmine.svg?branch=master)](https://app.travis-ci.com/github/piecioshka/boilerplate-puppeteer-jasmine)
 [![circle-ci](https://circleci.com/gh/piecioshka/boilerplate-puppeteer-jasmine.svg?style=svg)](https://circleci.com/gh/piecioshka/boilerplate-puppeteer-jasmine)
 
 🍴 Starter with Puppeteer & Jasmine & Jest
 
 ## Features
 
-* :white_check_mark: Puppeteer `v13.0.0`
-* :white_check_mark: Jasmine `v3.10.0`
-* :white_check_mark: Jest `v27.4.5`
+* :white_check_mark: Puppeteer
+* :white_check_mark: Jasmine
+* :white_check_mark: Jest
 
 ## End-to-end tests
 
