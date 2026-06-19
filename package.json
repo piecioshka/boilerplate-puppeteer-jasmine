@@ -20,7 +20,7 @@
     "jasmine": "^3.10.0",
     "jasmine-console-reporter": "^3.1.0",
     "jest": "^27.4.5",
-    "puppeteer": "^13.0.0"
+    "puppeteer": "^25.1.0"
   },
   "repository": {
     "type": "git",

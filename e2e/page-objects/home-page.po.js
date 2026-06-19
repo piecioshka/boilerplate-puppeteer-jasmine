@@ -6,7 +6,9 @@ class HomePage {
   }
 
   async open() {
-    this.browser = await puppeteer.launch();
+    this.browser = await puppeteer.launch({
+      args: ["--no-sandbox", "--disable-setuid-sandbox"],
+    });
     this.page = await this.browser.newPage();
     return await this.page.goto(this.url);
   }
