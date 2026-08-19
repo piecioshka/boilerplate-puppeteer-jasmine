@@ -2,6 +2,10 @@ const puppeteer = require("puppeteer");
 
 const URL = "https://example.org";
 
+// Launching the browser and hitting an external URL does not fit into the
+// default 5s jasmine timeout on a cold CI runner.
+jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
+
 describe("Home Page", () => {
   let browser = null;
   let page = null;
@@ -11,7 +15,7 @@ describe("Home Page", () => {
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
     page = await browser.newPage();
-    await page.goto(URL);
+    await page.goto(URL, { waitUntil: "domcontentloaded" });
   });
 
   afterEach(async () => {

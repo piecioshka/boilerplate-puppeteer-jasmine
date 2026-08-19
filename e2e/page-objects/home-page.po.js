@@ -10,7 +10,7 @@ class HomePage {
       args: ["--no-sandbox", "--disable-setuid-sandbox"],
     });
     this.page = await this.browser.newPage();
-    return await this.page.goto(this.url);
+    return await this.page.goto(this.url, { waitUntil: "domcontentloaded" });
   }
 
   async close() {

@@ -1,5 +1,9 @@
 const { HomePage } = require("../page-objects/home-page.po");
 
+// Launching the browser and hitting an external URL does not fit into the
+// default 5s jasmine timeout on a cold CI runner.
+jasmine.DEFAULT_TIMEOUT_INTERVAL = 30000;
+
 describe("Home Page (with Page Object)", () => {
   const page = new HomePage();
 
