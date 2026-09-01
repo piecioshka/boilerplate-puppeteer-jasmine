@@ -1,6 +1,6 @@
 # boilerplate-puppeteer-jasmine
 
-[![github-ci](https://github.com/piecioshka/boilerplate-puppeteer-jasmine/actions/workflows/testing.yml/badge.svg)](https://github.com/piecioshka/boilerplate-puppeteer-jasmine/actions/workflows/testing.yml)
+[![github-ci](https://github.com/piecioshka/boilerplate-puppeteer-jasmine/actions/workflows/ci.yml/badge.svg)](https://github.com/piecioshka/boilerplate-puppeteer-jasmine/actions/workflows/ci.yml)
 
 🍴 Starter with Puppeteer & Jasmine & Jest
 
